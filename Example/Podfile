@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'XCStepper_Example' do
   pod 'XCStepper', :path => '../'
-
+  pod 'Masonry'
   target 'XCStepper_Tests' do
     inherit! :search_paths
 
